@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">text</view>
+    <view class="page__desc">文字标签</view>
+  </view>
+  <view class="page__bd">
+    <view class="section section_gap">
+      <text>{{text}}</text>
+      <view class="btn-area">
+        <button bindtap="add">add line</button>
+        <button bindtap="remove">remove line</button>
+      </view>
+    </view>
+  </view>
+</view>

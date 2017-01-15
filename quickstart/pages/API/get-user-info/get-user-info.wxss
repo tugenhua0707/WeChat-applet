@@ -1,0 +1,15 @@
+.userinfo-avatar {
+  border-radius: 64px;
+  width: 64px;
+  height: 64px;
+}
+.page-body-title {
+  margin-bottom: 8px;
+}
+.userinfo-avatar {
+  margin-bottom: 5px;
+}
+.userinfo-nickname {
+  line-height: 24px;
+  font-size: 16px;
+}

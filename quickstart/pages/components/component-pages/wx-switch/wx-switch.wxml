@@ -1,0 +1,16 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">switch</view>
+    <view class="page__desc">开关选择器</view>
+  </view>
+  <view class="page__bd">
+
+    <view class="section section_gap">
+      <view class="body-view">
+        <switch checked bindchange="switch1Change"/>
+        <switch bindchange="switch2Change"/>
+        <switch type="checkbox" bindchange='switch3Change'/>
+      </view>
+    </view>
+  </view>
+</view>

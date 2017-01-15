@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">radio</view>
+    <view class="page__desc">单向选择器</view>
+  </view>
+  <view class="page__bd">
+    <radio-group class='radio-group' bindchange="radioChange">
+      <label class="radio" wx:for="{{items}}" wx:key="{{items+index}}">
+        <view class="section section_gap">
+          <radio value="{{item.name}}" checked="{{item.checked}}"/> {{item.value}}
+        </view>
+      </label>
+    </radio-group>
+  </view>
+</view>

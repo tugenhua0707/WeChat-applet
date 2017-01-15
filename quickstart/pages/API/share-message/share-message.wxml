@@ -1,0 +1,14 @@
+<import src="../common/header.wxml" />
+<import src="../common/footer.wxml" />
+
+<view class="container">
+  <template is="header" data="{{title: 'setNaivgationBarTitle'}}"/>
+
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      
+    </view>
+  </view>
+
+  <template is="footer" />
+</view>

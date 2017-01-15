@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="page__title">button</view>
+    <view class="page__desc">button按钮</view>
+  </view>
+  <checkbox-group bindchange="checkboxChange">
+    <view class="section section_gap">
+      <label class="checkbox" wx:for="{{items}}" wx:key="{{items+index}}">
+        <checkbox value="{{item.name}}" checked="{{item.checked}}">{{item.value}}</checkbox>
+      </label>
+    </view>
+  </checkbox-group>
+</view>
